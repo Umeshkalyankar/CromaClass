@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeClass;
 	import org.testng.annotations.Test;
 
 	public class TestngDemo4 {
-		WebDriver driver;
+		
 	@BeforeClass
 	public void classRun()
 	{
@@ -20,7 +20,7 @@ import org.testng.annotations.BeforeClass;
 	public void classStop()
 	{
 		System.out.println("---Login test with Headless1 stop now---");
-		driver.close();
+		
 		
 	}
 	@Test
